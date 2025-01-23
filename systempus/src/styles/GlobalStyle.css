@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Paleta de cores do Systempus */
+:root{
+    --color-laranja-escuro: #f58634;
+    --color-laranja-claro: #f6bf86;
+    --color-amarelo-claro: #fffd86;
+    --color-azul-escuro: #015190;
+    --color-azul-claro: #e5eef5;
+    --color-verde-escuro: #00810d;
+    --color-verde-claro: #b4f4bb;
+    --color-vermelho-escuro: #f40000;
+    --color-vermelho-claro: #ffd6ce;
+    --color-branco: #ffffff;
+    --color-branco-75: rgba(255, 255, 255, 0.75)
+}
+
+.titulo_principal{
+    color: var(--color-azul-claro);
+    text-align: center;
+    font-size: 3em;
+}
+
+.texto_apresentacao{
+    color: var(--color-branco);
+    text-align: center;
+    font-size: 1em;
+}
+
+.padding_paginas{
+    padding: 15px 50px 15px 50px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.espacamento_vertical_botoes{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.espacamento_horizontal_botoes{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.espacamento_titulo_pagina{
+    padding-top: 15px;
+}
+
+.pagina_estrutura_centralizada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_branco_pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-branco-75);
+    border-radius: 10px;
+    padding: 10px;
+    width: 220px;
+    margin: 10px 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

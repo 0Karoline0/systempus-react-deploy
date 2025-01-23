@@ -1,0 +1,21 @@
+.navbar_structure{
+    background-color: var(--color-azul-escuro);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    border-bottom: 1px solid white;
+}
+
+.logo_navbar{
+    height: 40px;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,57 @@
+.botao_horario {
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: var(--color-laranja-escuro);
+    border-width: 1px;
+    color: var(--color-azul-escuro);
+    font-weight: 400;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.botao_horario:hover{
+    background-color: var(--color-laranja-claro);
+}
+
+.botao_horario.compativel {
+    color: var(--color-branco);
+    font-weight: bold;
+    background-color: var(--color-verde-escuro);
+    cursor: pointer;
+    border-color: var(--color-verde-claro);
+}
+
+
+.botao_horario.professor {
+    color: var(--color-branco);
+    font-weight: bold;
+    background-color: var(--color-azul-escuro);
+    cursor: pointer;
+    border-color: var(--color-azul-claro);
+}
+
+.botao_horario.disciplina {
+    color: var(--color-branco);
+    font-weight: bold;
+    background-color: var(--color-laranja-escuro);
+    cursor: pointer;
+    border-color: var(--color-laranja-claro);
+}
+
+.botao_horario:disabled {
+    cursor: not-allowed;
+}
+
+.botao_horario:disabled:hover {
+    background-color: transparent;
+}
+
+.botao_horario.disciplina:disabled:hover {
+    background-color: var(--color-laranja-escuro);
+}
+
+.botao_horario.professor:disabled:hover {
+    background-color: var(--color-azul-escuro);
+}

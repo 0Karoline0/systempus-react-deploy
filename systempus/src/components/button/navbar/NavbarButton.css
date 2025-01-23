@@ -1,0 +1,19 @@
+.navbar-button {
+    margin: 0px 15px 0px 15px;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.navbar-button.selected {
+    background-color: var(--color-laranja-escuro);
+}
+
+.navbar-button:hover{
+    cursor: pointer;
+    background-color: var(--color-laranja-escuro);
+}

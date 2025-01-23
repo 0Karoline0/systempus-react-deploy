@@ -1,0 +1,22 @@
+.simple_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    color: var(--color-branco);
+    cursor: pointer;
+    font-size: medium;
+}
+
+.simple_button:hover{
+    filter: brightness(1.2);
+    -webkit-filter: brightness(1.2);
+}
+
+.simple_button_icon{
+    margin-right: 10px;
+}

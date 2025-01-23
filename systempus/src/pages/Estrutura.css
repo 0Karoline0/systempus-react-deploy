@@ -1,0 +1,18 @@
+.estrutura_principal{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.estrutura_background {
+    flex: 1;
+    overflow: auto;
+    background-image: url('/src/assets/images/background.jpg');
+}
+
+.estrutura_navbar{
+    position: fixed;
+    overflow-x: auto;
+    width: 100%;
+}

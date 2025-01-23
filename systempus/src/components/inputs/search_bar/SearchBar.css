@@ -1,0 +1,22 @@
+.estrutura_search_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border-radius: 25px;
+    width: 40%;
+    background-color: var(--color-branco);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.input_search_bar{
+    border-style: none;
+    margin-left: 10px;
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    color: #797979;
+}

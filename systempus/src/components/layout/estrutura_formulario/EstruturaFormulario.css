@@ -1,0 +1,79 @@
+.employee_container_picture_form{
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+
+.estrutura_formulario{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.container_formulario{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    border-radius: 10px;
+    background-color: var(--color-branco-75);
+    padding: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.input_div{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 85%;
+}
+
+.input_formulario{
+    display: flex;
+    position: relative;
+    width: 95%;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.select-estrutura{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.select-style{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-style: none;
+}

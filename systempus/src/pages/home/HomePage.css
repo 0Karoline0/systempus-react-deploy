@@ -1,0 +1,13 @@
+.estrutura_home_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 30px;
+}
+
+.logo_home_page{
+    width: 35%;
+    margin-top: 7vw;
+    margin-bottom: 35px;
+}

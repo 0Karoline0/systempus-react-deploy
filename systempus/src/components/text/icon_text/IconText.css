@@ -1,0 +1,12 @@
+.icon_text_structure{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+    margin: 10px 0px
+}
+
+.icon_text_span{
+    margin-left: 12px;
+}

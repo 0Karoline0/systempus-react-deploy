@@ -1,0 +1,7 @@
+.estrutura_horario_docente {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+}

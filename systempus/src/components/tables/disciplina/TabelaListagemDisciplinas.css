@@ -1,0 +1,35 @@
+.table-bg-white{
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-branco-75);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+table td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tb-centralizado{
+    text-align: center;
+}
+
+.row-tb-opcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.tb-header{
+    margin-bottom: 10px;
+}

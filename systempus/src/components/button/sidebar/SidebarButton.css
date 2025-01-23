@@ -1,0 +1,67 @@
+.sidebar_button_estrutura{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sidebar_button_title_icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 5px;
+    color: var(--color-branco);
+}
+
+.sidebar_button_icon{
+    margin-left: 10px;
+    margin-right: 15px;
+    fill: var(--color-branco);
+}
+
+.horizontal_divider{
+    border: none;
+    border-top: 1px solid var(--color-branco);
+}
+
+/* ------- HOVER ------- */
+.sidebar_button_title_icon:hover{
+    color: var(--color-laranja-escuro);
+}
+
+.sidebar_button_estrutura:hover .sidebar_button_icon{
+    fill: var(--color-laranja-escuro);
+}
+
+/* ------- ESTILOS PARA BOTÃO SELECIONADO -------- */
+
+.sidebar_button_estrutura_selected{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: auto;
+    background-color: var(--color-azul-claro);
+    fill: var(--color-branco);
+}
+
+.sidebar_button_icon_selected{
+    background-color: var(--color-azul-escuro);
+    overflow: visible;
+    border-radius: 50%;
+    padding: 8px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.sidebar_button_title_icon_selected{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 15px 5px;
+    color: var(--color-azul-escuro);
+    align-items: center;
+}
