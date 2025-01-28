@@ -22,33 +22,33 @@ export function Navbar() {
                 <div className="navbar-menu">
                     <NavbarButton
                         title={"Início"}
-                        onClick={() => clickPage("/home")}
-                        isSelected={iconeSelecionado("/home")}
+                        onClick={() => clickPage("/systempus-react-deploy/home")}
+                        isSelected={iconeSelecionado("/systempus-react-deploy/home")}
                     />
                     <NavbarButton
                         title={"Professores"}
-                        isSelected={iconeSelecionado("/professores")}
-                        onClick={() => clickPage("/professores/")}
+                        isSelected={iconeSelecionado("/systempus-react-deploy/professores")}
+                        onClick={() => clickPage("/systempus-react-deploy/professores/")}
                     />
                     <NavbarButton
                         title={"Coordenadores"}
-                        isSelected={iconeSelecionado("/coordenadores")}
-                        onClick={() => clickPage("/coordenadores/")}
+                        isSelected={iconeSelecionado("/systempus-react-deploy/coordenadores")}
+                        onClick={() => clickPage("/systempus-react-deploy/coordenadores/")}
                     />
                     <NavbarButton
                         title={"Cursos"}
-                        isSelected={iconeSelecionado("/cursos/")}
-                        onClick={() => clickPage("/cursos/")}
+                        isSelected={iconeSelecionado("/systempus-react-deploy/cursos/")}
+                        onClick={() => clickPage("/systempus-react-deploy/cursos/")}
                     />
                     <NavbarButton
                         title={"Disciplinas"}
-                        isSelected={iconeSelecionado("/disciplinas/")}
-                        onClick={() => clickPage("/disciplinas/")}
+                        isSelected={iconeSelecionado("/systempus-react-deploy/disciplinas/")}
+                        onClick={() => clickPage("/systempus-react-deploy/disciplinas/")}
                     />
                     <NavbarButton
                         title={"Horarios Docente"}
-                        isSelected={iconeSelecionado("/horarios-docente/")}
-                        onClick={() => clickPage("/horarios-docente/")}
+                        isSelected={iconeSelecionado("/systempus-react-deploy/horarios-docente/")}
+                        onClick={() => clickPage("/systempus-react-deploy/horarios-docente/")}
                     />
                 </div>
             </div>
