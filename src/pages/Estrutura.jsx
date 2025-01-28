@@ -27,22 +27,22 @@ export function Estrutura() {
                 <Navbar className="estrutura_navbar"/>
                 <div className='estrutura_background'>
                     <Routes>
-                        <Route path='/' element={<HomePage />} />
-                        <Route path='/home' element={<HomePage />} />
-                        <Route path='/professores/' element={<ProfessoresPage />} />
-                        <Route path='/professores/formulario/:isCadastro/:id?' element={<ProfessoresFormulario />} />
-                        <Route path='/coordenadores/' element={<CoordenadoresPage />} />
-                        <Route path='/coordenadores/formulario/:isCadastro/:id?' element={<CoordenadorFormulario/>}/>
-                        <Route path='/cursos/' element={<CursosPage />}/>
-                        <Route path='/cursos/formulario/:isCadastro/:id?' element={<CursoFormulario />}/>
-                        <Route path='/modulos/' element={<ModuloPage />}/>
-                        <Route path='/modulos/formulario/:isCadastro/:id?' element={<ModuloFormulario />}/>
-                        <Route path='/disciplinas/' element={<DisciplinasPage />}/>
-                        <Route path='/disciplinas/formulario/:isCadastro/:id?' element={<DisciplinaFormulario />}/>
-                        <Route path='/periodos/formulario/:isCadastro/:id?' element={<PeriodoFormulario/>}></Route>
-                        <Route path='/professores/horarios/:idProfessor' element={<DisponibilidadeProfessor/>}></Route>
-                        <Route path='/disciplinas/horarios/:idDisciplina' element={<HorariosDisciplinas/>}></Route>
-                        <Route path='/horarios-docente/' element={<HorariosDocente/>}></Route>
+                        <Route path='/systempus-react-deploy/' element={<HomePage />} />
+                        <Route path='/systempus-react-deploy/home' element={<HomePage />} />
+                        <Route path='/systempus-react-deploy/professores/' element={<ProfessoresPage />} />
+                        <Route path='/systempus-react-deploy/professores/formulario/:isCadastro/:id?' element={<ProfessoresFormulario />} />
+                        <Route path='/systempus-react-deploy/coordenadores/' element={<CoordenadoresPage />} />
+                        <Route path='/systempus-react-deploy/coordenadores/formulario/:isCadastro/:id?' element={<CoordenadorFormulario/>}/>
+                        <Route path='/systempus-react-deploy/cursos/' element={<CursosPage />}/>
+                        <Route path='/systempus-react-deploy/cursos/formulario/:isCadastro/:id?' element={<CursoFormulario />}/>
+                        <Route path='/systempus-react-deploy/modulos/' element={<ModuloPage />}/>
+                        <Route path='/systempus-react-deploy/modulos/formulario/:isCadastro/:id?' element={<ModuloFormulario />}/>
+                        <Route path='/systempus-react-deploy/disciplinas/' element={<DisciplinasPage />}/>
+                        <Route path='/systempus-react-deploy/disciplinas/formulario/:isCadastro/:id?' element={<DisciplinaFormulario />}/>
+                        <Route path='/systempus-react-deploy/periodos/formulario/:isCadastro/:id?' element={<PeriodoFormulario/>}></Route>
+                        <Route path='/systempus-react-deploy/professores/horarios/:idProfessor' element={<DisponibilidadeProfessor/>}></Route>
+                        <Route path='/systempus-react-deploy/disciplinas/horarios/:idDisciplina' element={<HorariosDisciplinas/>}></Route>
+                        <Route path='/systempus-react-deploy/horarios-docente/' element={<HorariosDocente/>}></Route>
                     </Routes>
                 </div>
             </BrowserRouter>
