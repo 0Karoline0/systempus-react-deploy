@@ -25,7 +25,7 @@ export function Navbar() {
                         onClick={() => clickPage("/systempus-react-deploy/home")}
                         isSelected={iconeSelecionado("/systempus-react-deploy/home")}
                     />
-                    <NavbarButton
+                    <NavbarButton 
                         title={"Professores"}
                         isSelected={iconeSelecionado("/systempus-react-deploy/professores")}
                         onClick={() => clickPage("/systempus-react-deploy/professores/")}
