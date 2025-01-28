@@ -1,6 +1,6 @@
 
-const baseUrl = 'http://localhost:8080/api/v1/';
-// const url = 'https://systempus.onrender.com/yapi/v1/';
+// const baseUrl = 'http://localhost:8080/api/v1/';
+const url = 'https://systempus.onrender.com/api/v1/';
 
 export const fetchEntidades = async (endpoint) => {
     try {
